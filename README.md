@@ -12,10 +12,8 @@ caca
 
 o
 
-```bash
 caca -n [nombre]
-
----
+```` ``` ````
 
 ## Instalación
 

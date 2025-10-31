@@ -1,0 +1,19 @@
+#!/bin/bash
+# Uso: caca [-n nombre]
+
+
+nombre="Katia" # nombre por defecto jejejee
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -n|--name)
+      nombre="$2"
+      shift 2
+      ;;
+    *)
+      echo "Uso: $0 [-n NOMBRE]"
+      exit 1
+      ;;
+  esac
+done
+echo "$nombre"

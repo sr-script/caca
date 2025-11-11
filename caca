@@ -2,7 +2,7 @@
 # Uso: caca [-n nombre]
 
 
-nombre="Katia" # nombre por defecto jejejee
+nombre="Camila" 
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
